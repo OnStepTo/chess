@@ -1,30 +1,36 @@
-Õý³£Çé¿öÐ´´úÂë±àÒëÓÐ69¸ö¾¯¸æ£¬ÎÞ´íÎó¡£
+æ­£å¸¸æƒ…å†µå†™ä»£ç ç¼–è¯‘æœ‰69ä¸ªè­¦å‘Šï¼Œæ— é”™è¯¯ã€‚
 
-lcd.cÎÄ¼þÌí¼ÓÒÔÏÂº¯ÊýµÄÔ­º¯Êý£¬¶ÔÏàÓ¦µÄ.hÎÄ¼þ½øÐÐÉùÃ÷¡£
+lcd.cæ–‡ä»¶æ·»åŠ ä»¥ä¸‹å‡½æ•°çš„åŽŸå‡½æ•°ï¼Œå¯¹ç›¸åº”çš„.hæ–‡ä»¶è¿›è¡Œå£°æ˜Žã€‚
 void write_Chinese(u16 x,u16 y,u16 GBK,u16 color,uint8_t * lib,uint8_t lengt);
 void chess_DrawLine(u16 x1, u16 y1, u16 x2, u16 y2);
 void pieceWrite(uint8_t index,uint8_t * lib,uint8_t length);
 void LCD_Fill_Circle(u16 x,u16 y,u16 r,u16 color);
 
-24cxx.cÎÄ¼þÌí¼ÓÒÔÏÂº¯ÊýµÄÔ­º¯Êý£¬¶ÔÏàÓ¦µÄ.hÎÄ¼þ½øÐÐÉùÃ÷¡£
-ÎÄ¼þ»»³Émini°åµÄÇý¶¯¼´¿É¡£
+24cxx.cæ–‡ä»¶æ·»åŠ ä»¥ä¸‹å‡½æ•°çš„åŽŸå‡½æ•°ï¼Œå¯¹ç›¸åº”çš„.hæ–‡ä»¶è¿›è¡Œå£°æ˜Žã€‚
+æ–‡ä»¶æ¢æˆminiæ¿çš„é©±åŠ¨å³å¯ã€‚
 
-i2c.cÎÄ¼þÌí¼ÓÒÔÏÂº¯ÊýµÄÔ­º¯Êý£¬¶ÔÏàÓ¦µÄ.hÎÄ¼þ½øÐÐÉùÃ÷¡£
-ÎÄ¼þ»»³Émini°åµÄÇý¶¯¼´¿É¡£
+i2c.cæ–‡ä»¶æ·»åŠ ä»¥ä¸‹å‡½æ•°çš„åŽŸå‡½æ•°ï¼Œå¯¹ç›¸åº”çš„.hæ–‡ä»¶è¿›è¡Œå£°æ˜Žã€‚
+æ–‡ä»¶æ¢æˆminiæ¿çš„é©±åŠ¨å³å¯ã€‚
 
-spi.cÎÄ¼þÌí¼ÓÒÔÏÂº¯ÊýµÄÔ­º¯Êý£¬¶ÔÏàÓ¦µÄ.hÎÄ¼þ½øÐÐÉùÃ÷¡£
-Ô­´úÂëÊÇÓÃµÄspi2£¬ÒòÎªÕ½½¢°æµÄW25Q128ÓÃµÄÊÇspi2£¬ÔÚmini°åÖÐW25Q64ÓÃµÄÊÇspi1ËùÒÔspi.cÎÄ¼þÖÐÒª»»³É
-spi1µÄ°å¼¶Çý¶¯¡£
+spi.cæ–‡ä»¶æ·»åŠ ä»¥ä¸‹å‡½æ•°çš„åŽŸå‡½æ•°ï¼Œå¯¹ç›¸åº”çš„.hæ–‡ä»¶è¿›è¡Œå£°æ˜Žã€‚
+åŽŸä»£ç æ˜¯ç”¨çš„spi2ï¼Œå› ä¸ºæˆ˜èˆ°ç‰ˆçš„W25Q128ç”¨çš„æ˜¯spi2ï¼Œåœ¨miniæ¿ä¸­W25Q64ç”¨çš„æ˜¯spi1æ‰€ä»¥spi.cæ–‡ä»¶ä¸­è¦æ¢æˆ
+spi1çš„æ¿çº§é©±åŠ¨ã€‚
 
-touch.cÎÄ¼þÌí¼ÓÒÔÏÂº¯ÊýµÄÔ­º¯Êý£¬¶ÔÏàÓ¦µÄ.hÎÄ¼þ½øÐÐÉùÃ÷¡£
-ÎÄ¼þ»»³Émini°åµÄÇý¶¯¼´¿É¡£
+touch.cæ–‡ä»¶æ·»åŠ ä»¥ä¸‹å‡½æ•°çš„åŽŸå‡½æ•°ï¼Œå¯¹ç›¸åº”çš„.hæ–‡ä»¶è¿›è¡Œå£°æ˜Žã€‚
+æ–‡ä»¶æ¢æˆminiæ¿çš„é©±åŠ¨å³å¯ã€‚
 
-w25qxx.cÎÄ¼þÌí¼ÓÒÔÏÂº¯ÊýµÄÔ­º¯Êý£¬¶ÔÏàÓ¦µÄ.hÎÄ¼þ½øÐÐÉùÃ÷¡£
-ÓÉÓÚspi.cµÄÊÇspi1µÄ°å¼¶Çý¶¯£¬ÇÒÎÒÃ»ÓÐÕÒµ½ÓÃspi2Çý¶¯w25q64(spi flash)µÄµ×²ã´úÂë£¬ËùÒÔÒª°Ñw25qxx.cÖÐËùÓÐ
-º¬spi2µÄº¯Êý»»³Éspi1£¬Ö»ÓÃ°É2»»³É1¼´¿É£¬×¢ÒâÔÚmini°åspi flashÎªw25q64²»ÊÇw25q128¡£ÇÒÓÉPA2Ê¹ÄÜ¡£
+w25qxx.cæ–‡ä»¶æ·»åŠ ä»¥ä¸‹å‡½æ•°çš„åŽŸå‡½æ•°ï¼Œå¯¹ç›¸åº”çš„.hæ–‡ä»¶è¿›è¡Œå£°æ˜Žã€‚
+ç”±äºŽspi.cçš„æ˜¯spi1çš„æ¿çº§é©±åŠ¨ï¼Œä¸”æˆ‘æ²¡æœ‰æ‰¾åˆ°ç”¨spi2é©±åŠ¨w25q64(spi flash)çš„åº•å±‚ä»£ç ï¼Œæ‰€ä»¥è¦æŠŠw25qxx.cä¸­æ‰€æœ‰
+å«spi2çš„å‡½æ•°æ¢æˆspi1ï¼Œåªç”¨å§2æ¢æˆ1å³å¯ï¼Œæ³¨æ„åœ¨miniæ¿spi flashä¸ºw25q64ä¸æ˜¯w25q128ã€‚ä¸”ç”±PA2ä½¿èƒ½ã€‚
 
-Èç¹û×îºó½çÃæ³öÏÖ°×É«£¬µãÆÁÄ»»á³öÏÖÏóÆå×Ó£¬ÔòÈÃinitUI();º¯Êý½ô°¤×Åwhile(1);
+å¦‚æžœæœ€åŽç•Œé¢å‡ºçŽ°ç™½è‰²ï¼Œç‚¹å±å¹•ä¼šå‡ºçŽ°è±¡æ£‹å­ï¼Œåˆ™è®©initUI();å‡½æ•°ç´§æŒ¨ç€while(1);
 
-			¶ÀÀÖÀÖ²»ÈçÖÚÀÖÀÖ
+			ç‹¬ä¹ä¹ä¸å¦‚ä¼—ä¹ä¹
 
-´ËÒÆÖ²ÊÇBÕ¾¡°°Ëµã°ë¹Î·ç¡±upÖ÷ÔÚÕ½½¢°æµÄ»ù´¡ÉÏ½øÐÐ¸Ä±à£¬ÔÙ´Î¸ÐÐ»¡£
+æ­¤ç§»æ¤æ˜¯Bç«™â€œå…«ç‚¹åŠåˆ®é£Žâ€upä¸»åœ¨æˆ˜èˆ°ç‰ˆçš„åŸºç¡€ä¸Šè¿›è¡Œæ”¹ç¼–ï¼Œå†æ¬¡æ„Ÿè°¢ã€‚
+
+
+
+
+
+                            è¿·ä½ æ¿ç§»æ¤ä½œè€…ï¼šBç«™ç½‘å‹â€œé¢†èˆªå‘˜aâ€
