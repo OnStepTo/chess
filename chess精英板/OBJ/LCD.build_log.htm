@@ -21,24 +21,46 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
 Dialog DLL:      TARMSTM.DLL V1.66.0.0
  
 <h2>Project:</h2>
-C:\Users\Guoxl\Desktop\新建文件夹\临时\中国象棋v4\USER\LCD.uvprojx
-Project File Date:  05/18/2021
+C:\Users\Guoxl\Desktop\chess\chess精英板\USER\LCD.uvprojx
+Project File Date:  06/28/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
 Build target 'LCD'
-compiling check.c...
+compiling main.c...
+..\HARDWARE\EXIT\exti.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
 check.h(7): warning:  #1295-D: Deprecated declaration generalLine - give arg types
   int8_t generalLine();
-check.c(392): warning:  #177-D: variable "noUse"  was declared but never referenced
-      int8_t noUse;
-check.c(393): warning:  #177-D: variable "changeBuffer"  was declared but never referenced
-      ChangeBuffer changeBuffer;
-check.c: 3 warnings, 0 errors
+main.c(61): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  				write_Chinese(sX,sY,'无',DARKBLUE,Libbuttom,lengthCH2);
+main.c(62): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  				write_Chinese(sX+lengthCH2,sY,'效',DARKBLUE,Libbuttom,lengthCH2);
+main.c(82): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  						write_Chinese(sX,sY,'黑',BLACK,Libbuttom,lengthCH2);
+main.c(84): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  						write_Chinese(sX,sY,'红',RED,Libbuttom,lengthCH2);
+main.c(86): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  						write_Chinese(sX+lengthCH2,sY,'方',CYAN,Libbuttom,lengthCH2);
+main.c(87): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  						write_Chinese(sX+lengthCH2*2,sY,'胜',CYAN,Libbuttom,lengthCH2);
+main.c(93): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  					write_Chinese(sX,sY,'将',TURN?BLACK:RED,Libbuttom,lengthCH2);
+main.c(94): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  					write_Chinese(sX+lengthCH2,sY,'军',TURN?BLACK:RED,Libbuttom,lengthCH2);
+main.c(110): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  			write_Chinese(sX,sY,'无',DARKBLUE,Libbuttom,lengthCH2);
+main.c(111): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  			write_Chinese(sX+lengthCH2,sY,'效',DARKBLUE,Libbuttom,lengthCH2);
+main.c(156): warning:  #2548-D: multicharacter character literal (potential portability problem)
+              write_Chinese(sX,sY,'将',TURN?BLACK:RED,Libbuttom,lengthCH2);
+main.c(157): warning:  #2548-D: multicharacter character literal (potential portability problem)
+              write_Chinese(sX+lengthCH2,sY,'军',TURN?BLACK:RED,Libbuttom,lengthCH2);
+main.c: 14 warnings, 0 errors
 linking...
 Program Size: Code=47150 RO-data=16902 RW-data=756 ZI-data=1884  
 FromELF: creating hex file...
-"..\OBJ\LCD.axf" - 0 Error(s), 3 Warning(s).
+"..\OBJ\LCD.axf" - 0 Error(s), 14 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -52,7 +74,7 @@ Package Vendor: Keil
   D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

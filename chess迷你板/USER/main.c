@@ -39,8 +39,8 @@ int8_t gameRunFlag;
 	BEEP_Init();
 	extiInit();
 	LCD_Init();
-	POINT_COLOR = RED;
 	tp_dev.init();
+	POINT_COLOR = RED;
 	initUI();          //象棋的初始界面
 	while (1)
 	{
