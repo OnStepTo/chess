@@ -2,7 +2,7 @@
 ..\obj\chess.o: ..\SYSTEM\sys\sys.h
 ..\obj\chess.o: ..\USER\stm32f10x.h
 ..\obj\chess.o: ..\CORE\core_cm3.h
-..\obj\chess.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\chess.o: D:\softInstall\keil\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\chess.o: ..\USER\system_stm32f10x.h
 ..\obj\chess.o: ..\USER\stm32f10x_conf.h
 ..\obj\chess.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -36,6 +36,6 @@
 ..\obj\chess.o: ..\HARDWARE\transplant\TOUCH\gt9147.h
 ..\obj\chess.o: ..\HARDWARE\transplant\TOUCH\ft5206.h
 ..\obj\chess.o: ..\HARDWARE\LCD\lcd.h
-..\obj\chess.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\chess.o: D:\softInstall\keil\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\chess.o: ..\SYSTEM\delay\delay.h
 ..\obj\chess.o: check.h

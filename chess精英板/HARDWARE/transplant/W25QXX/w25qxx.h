@@ -26,6 +26,13 @@
 #define W25Q64 	0XEF16
 #define W25Q128	0XEF17
 
+#define NM25Q80 	0X5213 	
+#define NM25Q16 	0X5214
+#define NM25Q32 	0X5215
+#define NM25Q64 	0X5216
+#define NM25Q128	0X5217
+#define NM25Q256 	0X5218
+
 extern u16 W25QXX_TYPE;					//定义W25QXX芯片型号		   
 
 #define	W25QXX_CS 		PBout(12)  		//W25QXX的片选信号

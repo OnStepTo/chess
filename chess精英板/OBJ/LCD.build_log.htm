@@ -5,11 +5,11 @@
 <h2>Tool Versions:</h2>
 IDE-Version: μVision V5.25.2.0
 Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: 1 Guoxl, 1, LIC=GMZI6-DWNDF-56IQ2-9G756-RG79H-IM78S
+License Information: guo guoxl20191116@yeah.net, jiujiang, LIC=03C6R-KQSC9-Y8HFK-ZW201-HWEZF-UY2IS
  
 Tool Versions:
 Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
-Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+Toolchain Path:  D:\softInstall\keil\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.06 update 6 (build 750)
 Assembler:       Armasm.exe V5.06 update 6 (build 750)
 Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
@@ -21,46 +21,17 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
 Dialog DLL:      TARMSTM.DLL V1.66.0.0
  
 <h2>Project:</h2>
-C:\Users\Guoxl\Desktop\chess\chess精英板\USER\LCD.uvprojx
-Project File Date:  06/28/2021
+C:\Users\guoxl\Desktop\chess-master\chess精英板\USER\LCD.uvprojx
+Project File Date:  12/20/2021
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\softInstall\keil\ARM\ARMCC\Bin'
 Build target 'LCD'
-compiling main.c...
-..\HARDWARE\EXIT\exti.h(13): warning:  #1-D: last line of file ends without a newline
-  #endif
-check.h(7): warning:  #1295-D: Deprecated declaration generalLine - give arg types
-  int8_t generalLine();
-main.c(61): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  				write_Chinese(sX,sY,'无',DARKBLUE,Libbuttom,lengthCH2);
-main.c(62): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  				write_Chinese(sX+lengthCH2,sY,'效',DARKBLUE,Libbuttom,lengthCH2);
-main.c(82): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  						write_Chinese(sX,sY,'黑',BLACK,Libbuttom,lengthCH2);
-main.c(84): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  						write_Chinese(sX,sY,'红',RED,Libbuttom,lengthCH2);
-main.c(86): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  						write_Chinese(sX+lengthCH2,sY,'方',CYAN,Libbuttom,lengthCH2);
-main.c(87): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  						write_Chinese(sX+lengthCH2*2,sY,'胜',CYAN,Libbuttom,lengthCH2);
-main.c(93): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  					write_Chinese(sX,sY,'将',TURN?BLACK:RED,Libbuttom,lengthCH2);
-main.c(94): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  					write_Chinese(sX+lengthCH2,sY,'军',TURN?BLACK:RED,Libbuttom,lengthCH2);
-main.c(110): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  			write_Chinese(sX,sY,'无',DARKBLUE,Libbuttom,lengthCH2);
-main.c(111): warning:  #2548-D: multicharacter character literal (potential portability problem)
-  			write_Chinese(sX+lengthCH2,sY,'效',DARKBLUE,Libbuttom,lengthCH2);
-main.c(156): warning:  #2548-D: multicharacter character literal (potential portability problem)
-              write_Chinese(sX,sY,'将',TURN?BLACK:RED,Libbuttom,lengthCH2);
-main.c(157): warning:  #2548-D: multicharacter character literal (potential portability problem)
-              write_Chinese(sX+lengthCH2,sY,'军',TURN?BLACK:RED,Libbuttom,lengthCH2);
-main.c: 14 warnings, 0 errors
+compiling lcd.c...
 linking...
-Program Size: Code=47150 RO-data=16902 RW-data=756 ZI-data=1884  
+Program Size: Code=41506 RO-data=16902 RW-data=756 ZI-data=1884  
 FromELF: creating hex file...
-"..\OBJ\LCD.axf" - 0 Error(s), 14 Warning(s).
+"..\OBJ\LCD.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -71,7 +42,7 @@ Package Vendor: Keil
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_LCD
-  D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+  D:\softInstall\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 Build Time Elapsed:  00:00:02

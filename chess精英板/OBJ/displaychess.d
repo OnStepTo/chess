@@ -1,10 +1,10 @@
 ..\obj\displaychess.o: ..\HARDWARE\LCD\displayChess.c
-..\obj\displaychess.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\displaychess.o: D:\softInstall\keil\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\displaychess.o: ..\HARDWARE\LCD\lcd.h
 ..\obj\displaychess.o: ..\SYSTEM\sys\sys.h
 ..\obj\displaychess.o: ..\USER\stm32f10x.h
 ..\obj\displaychess.o: ..\CORE\core_cm3.h
-..\obj\displaychess.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\displaychess.o: D:\softInstall\keil\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\displaychess.o: ..\USER\system_stm32f10x.h
 ..\obj\displaychess.o: ..\USER\stm32f10x_conf.h
 ..\obj\displaychess.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -31,7 +31,7 @@
 ..\obj\displaychess.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\displaychess.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\displaychess.o: ..\STM32F10x_FWLib\inc\misc.h
-..\obj\displaychess.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\displaychess.o: D:\softInstall\keil\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\displaychess.o: ..\HARDWARE\LCD\displayChess.h
 ..\obj\displaychess.o: ..\USER\chess.h
 ..\obj\displaychess.o: ..\HARDWARE\transplant\TOUCH\touch.h

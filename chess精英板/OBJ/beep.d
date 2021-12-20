@@ -1,7 +1,7 @@
 ..\obj\beep.o: ..\HARDWARE\BEEP\beep.c
 ..\obj\beep.o: ..\USER\stm32f10x.h
 ..\obj\beep.o: ..\CORE\core_cm3.h
-..\obj\beep.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\beep.o: D:\softInstall\keil\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\beep.o: ..\USER\system_stm32f10x.h
 ..\obj\beep.o: ..\USER\stm32f10x_conf.h
 ..\obj\beep.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h

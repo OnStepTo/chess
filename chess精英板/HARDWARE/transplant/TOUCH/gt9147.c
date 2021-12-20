@@ -161,7 +161,7 @@ u8 GT9147_Init(void)
 		GT9147_WR_Reg(GT_CTRL_REG,temp,1);	//结束复位   	
 		return 0;
 	} 
-	return 1;
+	return 0;
 }
 const u16 GT9147_TPX_TBL[5]={GT_TP1_REG,GT_TP2_REG,GT_TP3_REG,GT_TP4_REG,GT_TP5_REG};
 //扫描触摸屏(采用查询方式)
